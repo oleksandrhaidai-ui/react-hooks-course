@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Joke from "./Joke";
 import Stories from "./Stories";
+import Tasks from "./Tasks";
 
 function App() {
   
@@ -29,6 +30,8 @@ function App() {
       </div>
       <hr></hr>
       <Joke></Joke>
+      <hr />
+      <Tasks />
       <hr></hr>
       <Stories></Stories>
     </div>
